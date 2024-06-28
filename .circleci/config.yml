@@ -11,7 +11,7 @@ jobs:
     executor:
       parameters:
         name: node/default
-        tag: 18.17.0
+        tag: "18.17.0"
     steps:
       - cypress/install
       - cypress/run-tests:
